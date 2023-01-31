@@ -10,11 +10,13 @@ FROM data_analyst_jobs;
 
 -- Output: 1793 **COUNT(*) count including null
 
+/* Note
 SELECT
 	COUNT(company)
 FROM data_analyst_jobs;
 
--- Output: 1787 **COUNT(column) count excluding null
+Output: 1787 **COUNT(column) count excluding null
+*/
 
 
 /*
