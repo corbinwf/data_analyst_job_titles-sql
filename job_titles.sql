@@ -42,6 +42,13 @@ WHERE location = 'TN';
 
 -- 21
 
+SELECT
+	COUNT(location)
+FROM data_analyst_jobs
+WHERE location IN ('TN', 'KY')
+
+-- 27
+
 
 /*
 4. How many postings in Tennessee have a star rating above 4?
